@@ -11,7 +11,7 @@
 | P0-04 | Architecture roadmap docs sync | ✅ |
 | P1-01 | Customer demo | ✅ CUST-01…04 / ⏸ CUST-02 npm |
 | P1-02 | Public docs site | 🟡 DOCS-01 ✅ · DOCS-02 🔄 |
-| P1-03 | Popular Places product | ⬜ / defer candidate |
+| P1-03 | Popular Places product | ⏸ **deferred** — use Famous/Notable |
 | P2-* | API / search / routing | ⬜ |
 | P3-01 | Cloud SaaS | ⬜ |
 | GEN-P1 | Generator docs tree governance | ⬜ |

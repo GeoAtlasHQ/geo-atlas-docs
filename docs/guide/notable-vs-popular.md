@@ -17,7 +17,7 @@ Ships with AZ `v1.1.0` notable artifacts. Map demo: customer **Nearby famous** b
 
 Architecture TARGET: admin-polygon mode (default) vs explicit radius mode. Product API historically sketched under `geo-atlas-api`; SDK stub remains until product decision (**implement or defer**).
 
-**Worker:** P1-03 — open. This docs site treats Popular as **deferred / stub** until SDK-07 completes.
+**Worker:** P1-03 — **deferred** (2026-07). Stub + `POPULAR_PLACES_STATUS` remain; see [SDK popular-places.md](https://github.com/GeoAtlasHQ/geoatlas-sdk/blob/master/docs/popular-places.md).
 
 ## Related
 
