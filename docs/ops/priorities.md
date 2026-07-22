@@ -5,7 +5,7 @@
 
 | ID | Focus | Status |
 | -- | ----- | ------ |
-| P0-01 | GitHub slug rename (`geoatlas-sdk` → `geo-atlas-sdk`) | ⬜ org |
+| P0-01 | GitHub slug rename | ⏸ **cancelled** for SDK — keep `geoatlas-sdk` |
 | P0-02 | AZ Phase G+H dataset publish | ✅ `v1.1.0` |
 | P0-03 | SDK semver pin (git; npm later) | ✅ git / ⏸ npm |
 | P0-04 | Architecture roadmap docs sync | ✅ |
