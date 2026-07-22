@@ -1,0 +1,27 @@
+{
+  "name": "geo-atlas-docs",
+  "version": "0.1.0-alpha.0",
+  "private": true,
+  "description": "Public documentation site for GeoAtlas (SDK, datasets, architecture, ops entry)",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3",
+    "vitepress": "^1.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoAtlasHQ/geo-atlas-docs.git"
+  }
+}
