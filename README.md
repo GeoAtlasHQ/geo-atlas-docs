@@ -29,8 +29,8 @@ VITEPRESS_BASE=pages pnpm build
 | Step | Status |
 | ---- | ------ |
 | DOCS-01 Site scaffold | ✅ |
-| DOCS-02 Architecture ingest | ✅ public summaries (handbook SSOT still operator `docs/`) |
-| DOCS-03 SDK API sync | 🟡 links to geoatlas-sdk/docs |
+| DOCS-02 Architecture ingest | ✅ |
+| DOCS-03 SDK API sync | ✅ `docs/api/*` from geoatlas-sdk |
 | DOCS-04 Worker as execution entry | ✅ `/ops/priorities` + `/ops/execution` |
 
 ## License

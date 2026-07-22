@@ -26,7 +26,7 @@ import {
 } from '@geoatlas/sdk';
 
 DEFAULT_AZ_DATASET_VERSION; // '1.1.0'
-DEFAULT_AZ_CDN_DATASET_URL; // jsDelivr …/az/v1.1.0/datasets
+DEFAULT_AZ_CDN_DATASET_URL; // GitHub raw …/az/v1.1.0/datasets (jsDelivr 403 on large indexes)
 ```
 
 ## Point intelligence (map click)
@@ -44,15 +44,17 @@ result.classificationZones;
 result.notablePlace;
 ```
 
-Full contract notes live in the SDK repo under `packages/core` and architecture docs for Point Intelligence.
-
 ## Browser note
 
-Core uses Web-friendly SHA-256 (`@noble/hashes`) and `DecompressionStream` for gzip when available (see commit on `master` after `v0.1.0-alpha.2`). Prefer `https://` dataset roots in the browser.
+Core uses Web-friendly SHA-256 (`@noble/hashes`) and `DecompressionStream` for gzip when available. Prefer `https://` dataset roots in the browser.
 
-## Deeper references
+## API reference (this site)
 
-- [Getting started (SDK repo)](https://github.com/GeoAtlasHQ/geoatlas-sdk/blob/master/docs/getting-started.md)
-- [Core API](https://github.com/GeoAtlasHQ/geoatlas-sdk/blob/master/docs/api-reference.md)
-- [React API](https://github.com/GeoAtlasHQ/geoatlas-sdk/blob/master/docs/api-react.md)
-- [Examples](https://github.com/GeoAtlasHQ/geoatlas-sdk/blob/master/docs/examples.md)
+- [Getting started](/api/getting-started)
+- [Core API](/api/core)
+- [React API](/api/react)
+- [Angular API](/api/angular)
+- [Examples](/api/examples)
+- [FAQ](/api/faq)
+
+Mirrored from `geoatlas-sdk/docs` (DOCS-03). Source of truth for package docs remains the SDK repo until npm publish.

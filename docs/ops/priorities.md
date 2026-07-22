@@ -12,6 +12,8 @@
 | P1-01 | Customer demo | ✅ CUST-01…04 / ⏸ CUST-02 npm |
 | P1-02 | Public docs site | 🟡 DOCS-01 ✅ · DOCS-02 🔄 |
 | P1-03 | Popular Places product | ⏸ **deferred** — use Famous/Notable |
+| CUST-02 | SDK from npm | ⏸ **deferred** (no npm publish) |
+| Pages | Customer + docs GitHub Pages | ⬜ enable Actions source in Settings |
 | P2-* | API / search / routing | ⬜ |
 | P3-01 | Cloud SaaS | ⬜ |
 | GEN-P1 | Generator docs tree governance | ✅ ADR-010 |

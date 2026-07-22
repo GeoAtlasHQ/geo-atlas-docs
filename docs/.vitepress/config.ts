@@ -12,6 +12,7 @@ export default defineConfig({
     nav: [
       { text: 'Quickstart', link: '/guide/quickstart' },
       { text: 'SDK', link: '/guide/sdk' },
+      { text: 'API', link: '/api/core' },
       { text: 'Datasets', link: '/guide/datasets' },
       { text: 'Architecture', link: '/architecture/overview' },
       { text: 'Ops', link: '/ops/priorities' },
@@ -37,6 +38,18 @@ export default defineConfig({
         ],
       },
       {
+        text: 'SDK API (DOCS-03)',
+        items: [
+          { text: 'Getting started', link: '/api/getting-started' },
+          { text: 'Core API', link: '/api/core' },
+          { text: 'React API', link: '/api/react' },
+          { text: 'Angular API', link: '/api/angular' },
+          { text: 'Examples', link: '/api/examples' },
+          { text: 'FAQ', link: '/api/faq' },
+          { text: 'Popular Places', link: '/api/popular-places' },
+        ],
+      },
+      {
         text: 'Architecture',
         items: [
           { text: 'Overview', link: '/architecture/overview' },
@@ -56,6 +69,7 @@ export default defineConfig({
         items: [
           { text: 'Priorities', link: '/ops/priorities' },
           { text: 'Execution entry', link: '/ops/execution' },
+          { text: 'Enable Pages', link: '/ops/pages' },
         ],
       },
     ],
