@@ -9,3 +9,4 @@
 - Architecture overview + repository map
 - Ops execution entry page
 - GitHub Pages + CI workflows
+- DOCS-02 ingest: vision, planes, PI, classification, notable vs popular, development order, priorities

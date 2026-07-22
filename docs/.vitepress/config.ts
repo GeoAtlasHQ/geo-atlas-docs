@@ -14,13 +14,14 @@ export default defineConfig({
       { text: 'SDK', link: '/guide/sdk' },
       { text: 'Datasets', link: '/guide/datasets' },
       { text: 'Architecture', link: '/architecture/overview' },
-      { text: 'Ops', link: '/ops/execution' },
+      { text: 'Ops', link: '/ops/priorities' },
       {
         text: 'Repos',
         items: [
           { text: 'SDK', link: 'https://github.com/GeoAtlasHQ/geoatlas-sdk' },
           { text: 'Datasets', link: 'https://github.com/GeoAtlasHQ/geo-datasets' },
           { text: 'Customer demo', link: 'https://github.com/GeoAtlasHQ/geo-atlas-customer' },
+          { text: 'Docs', link: 'https://github.com/GeoAtlasHQ/geo-atlas-docs' },
           { text: 'Generator', link: 'https://github.com/GeoAtlasHQ/geo-data-generator' },
         ],
       },
@@ -32,18 +33,30 @@ export default defineConfig({
           { text: 'Quickstart', link: '/guide/quickstart' },
           { text: 'SDK', link: '/guide/sdk' },
           { text: 'Datasets', link: '/guide/datasets' },
+          { text: 'Notable vs Popular', link: '/guide/notable-vs-popular' },
         ],
       },
       {
         text: 'Architecture',
         items: [
           { text: 'Overview', link: '/architecture/overview' },
+          { text: 'Vision', link: '/architecture/vision' },
+          { text: 'Five planes', link: '/architecture/planes' },
+          { text: 'Point intelligence', link: '/architecture/point-intelligence' },
+          { text: 'Classification', link: '/architecture/classification' },
           { text: 'Repository map', link: '/architecture/repos' },
         ],
       },
       {
+        text: 'Ecosystem',
+        items: [{ text: 'Development order', link: '/ecosystem/development-order' }],
+      },
+      {
         text: 'Operations',
-        items: [{ text: 'Execution entry', link: '/ops/execution' }],
+        items: [
+          { text: 'Priorities', link: '/ops/priorities' },
+          { text: 'Execution entry', link: '/ops/execution' },
+        ],
       },
     ],
     socialLinks: [
@@ -51,7 +64,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'GeoAtlasHQ · MIT',
-      copyright: 'Consumer docs · deep architecture lives in platform handbook SSOT',
+      copyright: 'Consumer docs · deep architecture SSOT remains platform handbook',
     },
     search: {
       provider: 'local',
