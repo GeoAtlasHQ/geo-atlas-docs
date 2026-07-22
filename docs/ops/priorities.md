@@ -14,7 +14,7 @@
 | P1-03 | Popular Places product | ⏸ **deferred** — use Famous/Notable |
 | P2-* | API / search / routing | ⬜ |
 | P3-01 | Cloud SaaS | ⬜ |
-| GEN-P1 | Generator docs tree governance | ⬜ |
+| GEN-P1 | Generator docs tree governance | ✅ ADR-010 |
 
 ## Waiting-on codes
 
